@@ -120,7 +120,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.cp.taper_term_mv=6500 \
     persist.vendor.cp.fcc_main_ua=400000 \
-    persist.vendor.cp.iadp_fcc_offset_ma=-50
+    persist.vendor.cp.iadp_fcc_offset_ma=-50 \
+    ro.charger.enable_suspend=true
 
 # CNE
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
