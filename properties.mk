@@ -221,3 +221,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
      dalvik.vm.dex2oat64.enabled=true \
      ro.sys.fw.dex2oat_thread_count=8
+
+# Wifi
+PRODUCT_PROPERTY_OVERRIDES += \
+    wifi.aware.interface=wifi-aware0
