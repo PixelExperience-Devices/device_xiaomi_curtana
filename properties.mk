@@ -1,5 +1,6 @@
 # Audio
 PRODUCT_PROPERTY_OVERRIDES += \
+    vendor.audio.hal.boot.timeout.ms=20000 \
     af.fast_track_multiplier=1 \
     vendor.audio_hal.period_size=240 \
     ro.vendor.audio.sdk.fluencetype=fluence \
