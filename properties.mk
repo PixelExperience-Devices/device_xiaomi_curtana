@@ -225,3 +225,7 @@ PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
 # Wifi
 PRODUCT_PROPERTY_OVERRIDES += \
     wifi.aware.interface=wifi-aware0
+
+# Incremental FS
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.incremental.enable=1
