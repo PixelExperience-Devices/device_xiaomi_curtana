@@ -5,16 +5,10 @@
     "branch": "ten"
   },
   {
-    "remote": "pixel-devices-bitbucket",
-    "repository": "vendor_xiaomi_curtana",
-    "target_path": "vendor/xiaomi/curtana",
-    "branch": "ten"
-  },
-  {
-    "remote": "pixel-devices-bitbucket",
-    "repository": "vendor_xiaomi_sm6250-common",
-    "target_path": "vendor/xiaomi/sm6250-common",
-    "branch": "ten"
+    "remote": "github",
+    "repository": "demon000/vendor_xiaomi",
+    "target_path": "vendor/xiaomi",
+    "branch": "lineage-17.1"
   },
   {
     "repository": "kernel_xiaomi_curtana",
