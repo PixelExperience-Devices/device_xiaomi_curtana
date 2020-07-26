@@ -5,12 +5,15 @@
 #
 
 $(call inherit-product, device/xiaomi/curtana/device.mk)
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-PRODUCT_NAME := lineage_curtana
+# PixelExperience Properties
+TARGET_INCLUDE_WIFI_EXT := true
+TARGET_GAPPS_ARCH := arm64
+TARGET_BOOT_ANIMATION_RES := 1080
+
+PRODUCT_NAME := aosp_curtana
 PRODUCT_DEVICE := curtana
 PRODUCT_BRAND := Redmi
 PRODUCT_MODEL := Redmi Note 9S
 PRODUCT_MANUFACTURER := Redmi
-
-BUILD_FINGERPRINT := "Redmi/curtana_global/curtana:10/QKQ1.191215.002/V11.0.9.0.QJWMIXM:user/release-keys"
