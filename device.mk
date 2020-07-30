@@ -520,7 +520,7 @@ PRODUCT_PACKAGES += \
 
 # Vibrator
 PRODUCT_PACKAGES += \
-    vendor.qti.hardware.vibrator@1.2-service
+    vendor.qti.hardware.vibrator.service
 
 # VNDK
 # FIXME: master: compat for libprotobuf
