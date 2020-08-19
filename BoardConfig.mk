@@ -10,7 +10,7 @@ include device/xiaomi/sm6250-common/BoardConfigCommon.mk
 # Inherit proprietary blobs
 -include vendor/xiaomi/miatoll/BoardConfigVendor.mk
 
-DEVICE_PATH := device/xiaomi/miatoll
+DEVICE_PATH := device/xiaomi/curtana
 
 # Bootloader
 TARGET_BOOTLOADER_BOARD_NAME := miatoll
