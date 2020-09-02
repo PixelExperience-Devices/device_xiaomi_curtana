@@ -5,13 +5,13 @@
     "branch": "ten"
   },
   {
-    "remote": "pixel-devices-bitbucket",
+    "remote": "pixel-devices-blobs",
     "repository": "vendor_xiaomi_miatoll",
     "target_path": "vendor/xiaomi/miatoll",
     "branch": "ten"
   },
   {
-    "remote": "pixel-devices-bitbucket",
+    "remote": "pixel-devices-blobs",
     "repository": "vendor_xiaomi_sm6250-common",
     "target_path": "vendor/xiaomi/sm6250-common",
     "branch": "ten"
