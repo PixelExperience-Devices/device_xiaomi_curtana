@@ -361,18 +361,17 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_SOONG_NAMESPACES += \
+    vendor/nxp/opensource/sn100x \
     vendor/nxp/opensource/pn5xx
 
 PRODUCT_PACKAGES += \
     com.android.nfc_extras \
     com.gsma.services.nfc \
     com.nxp.nfc.nq \
-    libnqnfc_nci_jni \
-    NQNfcNci \
-    Tag
-
-PRODUCT_PACKAGES += \
     nfc_nci.nqx.default.hw \
+    libnqnfc_nci_jni \
+    NfcNci \
+    Tag \
     vendor.nxp.hardware.nfc@1.2-service
 
 PRODUCT_PACKAGES += \
