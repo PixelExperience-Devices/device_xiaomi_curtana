@@ -184,6 +184,10 @@ PRODUCT_COPY_FILES += \
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
+# Shims
+PRODUCT_PACKAGES += \
+    libcutils_shim
+
 # Display
 PRODUCT_PACKAGES += \
     gralloc.atoll \
