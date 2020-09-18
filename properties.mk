@@ -154,7 +154,8 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.enable_fb_ubwc=1 \
     ro.surface_flinger.max_frame_buffer_acquired_buffers=3 \
     ro.media.recorder-max-base-layer-fps=60 \
-    ro.surface_flinger.supports_background_blur=1
+    ro.surface_flinger.supports_background_blur=1 \
+    ro.sf.blurs_are_expensive=1
 
 # FRP
 PRODUCT_PROPERTY_OVERRIDES += \
