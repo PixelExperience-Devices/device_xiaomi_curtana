@@ -220,6 +220,12 @@ VENDOR_SECURITY_PATCH := 2020-11-01
 
 # SELinux
 include device/qcom/sepolicy_vndr/SEPolicy.mk
+
+BOARD_SEPOLICY_M4DEFS += \
+    debugfs_wlan=vendor_debugfs_wlan \
+    latency_device=vendor_latency_device \
+    sysfs_usbpd_device=vendor_sysfs_usbpd_device
+
 BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 BOARD_PLAT_PUBLIC_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/public
 BOARD_PLAT_PRIVATE_SEPOLICY_DIR += $(DEVICE_PATH)/sepolicy/private
