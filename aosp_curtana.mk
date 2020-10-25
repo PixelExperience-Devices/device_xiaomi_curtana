@@ -21,6 +21,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 TARGET_INCLUDE_WIFI_EXT := true
 TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_USES_AOSP_RECOVERY := true
+TARGET_SUPPORTS_GOOGLE_RECORDER := true
+TARGET_INCLUDE_STOCK_ARCORE := true
 
 # Inherit some common Lineage stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
