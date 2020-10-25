@@ -105,7 +105,7 @@ void load_device_properties() {
             set_device_props(
                              "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
                              "curtana_global-user 10 QKQ1.191215.002 V11.0.9.0.QJWMIXM release-keys",
-                             "Redmi", "curtana", "Redmi Note 9s");
+                             "Redmi", "curtana", "Redmi Note 9S");
         } else if (region == "India") {
             set_device_props(
                              "google/walleye/walleye:8.1.0/OPM1.171019.011/4448085:user/release-keys",
