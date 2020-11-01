@@ -33,6 +33,9 @@ TARGET_OTA_ASSERT_DEVICE := curtana,excalibur,gram,joyeuse
 TARGET_BOOTLOADER_BOARD_NAME := atoll
 TARGET_NO_BOOTLOADER := true
 
+# Build
+BUILD_BROKEN_DUP_RULES := true
+
 # Boot animation
 TARGET_SCREEN_HEIGHT := 2400
 TARGET_SCREEN_WIDTH := 1080
