@@ -115,6 +115,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.video.disable.ubwc=1 \
     vidc.enc.dcvs.extra-buff-count=2
 
+# Charging
+PRODUCT_PROPERTY_OVERRIDES += \
+    persist.vendor.cp.taper_term_mv=6500 \
+    persist.vendor.cp.fcc_main_ua=400000 \
+    persist.vendor.cp.iadp_fcc_offset_ma=-50
+
 # CNE
 PRODUCT_SYSTEM_DEFAULT_PROPERTIES += \
     persist.vendor.cne.feature=1
