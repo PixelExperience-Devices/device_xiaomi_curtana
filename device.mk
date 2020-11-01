@@ -151,19 +151,6 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.btconfigstore@1.0.vendor
 
-# Camera
-PRODUCT_PACKAGES += \
-    libstdc++.vendor \
-    Snap
-
-PRODUCT_PACKAGES += \
-    android.hardware.camera.device@3.4 \
-    android.hardware.camera.provider@2.4-impl \
-    android.hardware.camera.provider@2.4-service_64 \
-    android.hardware.camera.provider@2.5 \
-    libdng_sdk.vendor \
-    vendor.qti.hardware.camera.device@1.0
-
 # Connectivity Engine support (CNE)
 PRODUCT_PACKAGES += \
     cneapiclient \
