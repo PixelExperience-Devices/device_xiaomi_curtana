@@ -1,5 +1,3 @@
-# curtana package version: QKQ1.191215.002 V11.0.10.0.QJWMIXM, unless stated otherwise
-
 # ACDB loader
 vendor/lib64/libacdb-fts.so
 vendor/lib64/libacdbloader.so
@@ -286,30 +284,22 @@ vendor/lib64/camera/com.qti.sensor.excalibur_ov8856.so
 vendor/lib64/camera/com.qti.sensor.excalibur_s5k5e9.so
 vendor/lib64/camera/com.qti.sensor.excalibur_s5kgw1.so
 vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov16a1q.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov2180.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_ov8856.bin
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5k5e9.bin
-vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_gc02m1.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_gc8034.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_imx582.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov16a1q.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov2180.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov8856.bin
 vendor/lib64/camera/com.qti.sensormodule.sunny_s5k5e9.bin
-vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgm2.bin
 vendor/lib64/camera/com.qti.tuned.default.bin
-vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin
-vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_ov16a1q.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_ov2180.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_ov8856.bin
 vendor/lib64/camera/com.qti.tuned.ofilm_s5k5e9.bin
-vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin
 vendor/lib64/camera/com.qti.tuned.sunny_gc8034.bin
-vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin
 vendor/lib64/camera/com.qti.tuned.sunny_ov16a1q.bin
 vendor/lib64/camera/com.qti.tuned.sunny_ov2180.bin
 vendor/lib64/camera/com.qti.tuned.sunny_s5k5e9.bin
@@ -318,15 +308,25 @@ vendor/lib64/camera/fdconfigpreviewlite.bin
 vendor/lib64/camera/fdconfigvideo.bin
 vendor/lib64/camera/fdconfigvideolite.bin
 
+# Camera sensors curtana
+vendor/lib64/camera/com.qti.sensormodule.ofilm_gc02m1_filter.bin|9100355fea9a83176cfeb584774f9c91d5567f55
+vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgm2.bin|f478aaa7dcb48ec04996ef6f64a837c49c4baa7f
+vendor/lib64/camera/com.qti.sensormodule.sunny_imx582.bin|175e004dcc5851cf9804878ab7d70c31467e4585
+vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgm2.bin|78b4fc1299de19f3aef44983ad531725cb623ace
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1.bin|5fa9eb85866a45e934540a349aeebb67d8cc1867
+vendor/lib64/camera/com.qti.tuned.ofilm_gc02m1_filter.bin|5fa9eb85866a45e934540a349aeebb67d8cc1867
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgm2.bin|851c33381b6b78c7865815829f00616aef465e99
+vendor/lib64/camera/com.qti.tuned.sunny_imx582.bin|44e0720be8f70f57a65836eabeabc65e65c55af5
+
 # Camera sensors joyeuse
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1.bin|334d371b7a983ce68b00517adda673c3c0e929b2
 vendor/lib64/camera/com.qti.sensormodule.ofilm_s5kgw1_mirrorflip.bin|917c57ddd0a00f9b05b953709b05142768f702b2
 vendor/lib64/camera/com.qti.sensormodule.sunny_ov32a1q.bin|c97a60bf1b3cd584fa4eb80495ad3ced41cb64a3
 vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1.bin|e1a6c85a562f88fbc8eb6ea0bdc1b1308754d70e
 vendor/lib64/camera/com.qti.sensormodule.sunny_s5kgw1_mirrorflip.bin|a3a755a5b11679cf4b42a7b606221a299ff4e012
-vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin|15baee3de5f5e4619b7b1aead0a95265e81429bf
-vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin|a344e681605a530982eaae946f3b94b037af69f0
-vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin|3bbd092604e89aa18477421b18a89a3ab9749010
+vendor/lib64/camera/com.qti.tuned.ofilm_s5kgw1.bin|0223771138a3c43a29ca1867b75f5064f6bb6f72
+vendor/lib64/camera/com.qti.tuned.sunny_gc02m1.bin|188b18e794fcc417f479b878b6ab9d51d4951878
+vendor/lib64/camera/com.qti.tuned.sunny_s5kgw1.bin|6ab3770bdb571fa89870bd3dfb8a081cf9f02842
 
 # Camera configs
 vendor/etc/camera/almalence_sr_params_tele.config
@@ -773,7 +773,7 @@ vendor/lib64/libmlipay@1.1.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.0.so
 vendor/lib64/vendor.xiaomi.hardware.mlipay@1.1.so
 
-# NFC - from joyeuse QKQ1.191215.002 V11.0.5.0.QJZMIXM
+# NFC joyeuse
 vendor/lib/libpn553_fw.so|a8e29cc3ebb2e0df0fb505fc2da9c69a015680fb
 
 # Perf
