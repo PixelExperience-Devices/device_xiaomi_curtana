@@ -1,7 +1,7 @@
 # Allow hal_power_default to write to dt2w nodes
 allow hal_power_default input_device:dir r_dir_perms;
 allow hal_power_default input_device:chr_file rw_file_perms;
-
+ 
 # To get/set powerhal state property
 set_prop(hal_power_default, power_prop)
 allow hal_power_default {
@@ -11,6 +11,14 @@ allow hal_power_default {
 }:file rw_file_perms;
 allow hal_power_default sysfs_msm_subsys:dir search;
 allow hal_power_default latency_device:chr_file rw_file_perms;
-
+allow hal_power_default sysfs_devfreq:dir search;
+allow hal_power_default sysfs_devfreq:file write;
+ 
 # The following folder is incidentally accessed by hal_power_default and is not needed.
 dontaudit hal_power_default cgroup:file read;
+ 
+allow hal_power_default sysfs_kgsl:lnk_file rw_file_perms;
+allow hal_power_default sysfs_kgsl:file rw_file_perms;
+allow hal_power_default sysfs_devfreq:dir search;
+allow hal_power_default sysfs_devfreq:file rw_file_perms;
+ 
