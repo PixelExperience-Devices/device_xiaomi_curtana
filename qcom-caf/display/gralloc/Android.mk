@@ -14,7 +14,7 @@ LOCAL_SHARED_LIBRARIES        := $(common_libs) libqdMetaData libsync libgralloc
                                  libgralloccore \
                                  android.hardware.graphics.mapper@2.0 \
                                  android.hardware.graphics.mapper@2.1
-LOCAL_CFLAGS                  := $(common_flags) -DLOG_TAG=\"qdgralloc\" -Wall -Werror
+LOCAL_CFLAGS                  := $(common_flags) -DLOG_TAG=\"qdgralloc\" -Wall -Wno-error
 LOCAL_CLANG                   := true
 LOCAL_ADDITIONAL_DEPENDENCIES := $(common_deps)
 LOCAL_SRC_FILES               := gr_device_impl.cpp
@@ -77,7 +77,6 @@ LOCAL_C_INCLUDES              := $(common_includes) $(kernel_includes)
 LOCAL_HEADER_LIBRARIES        := display_headers
 LOCAL_SHARED_LIBRARIES        := $(common_libs) \
                                   libhidlbase \
-                                  libhidltransport \
                                   libqdMetaData \
                                   libgrallocutils \
                                   libgralloccore \

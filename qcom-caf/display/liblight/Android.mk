@@ -23,7 +23,7 @@ LOCAL_HEADER_LIBRARIES := libhardware_headers
 LOCAL_SHARED_LIBRARIES := liblog
 LOCAL_CFLAGS := -DLOG_TAG=\"qdlights\"
 ifeq ($(LLVM_SA), true)
-    LOCAL_CFLAGS += --compile-and-analyze --analyzer-perf --analyzer-Werror
+    LOCAL_CFLAGS += --compile-and-analyze --analyzer-perf --analyzer-Wno-error
 endif
 LOCAL_CLANG  := true
 LOCAL_MODULE := lights.$(TARGET_BOARD_PLATFORM)
