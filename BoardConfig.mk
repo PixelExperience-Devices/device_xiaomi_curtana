@@ -153,6 +153,7 @@ LOC_HIDL_VERSION := 3.0
 DEVICE_FRAMEWORK_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/framework_manifest.xml
 DEVICE_MANIFEST_FILE := $(DEVICE_PATH)/configs/manifests/manifest.xml
 DEVICE_MATRIX_FILE := $(DEVICE_PATH)/configs/manifests/compatibility_matrix.xml
+DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/gps/vendor.qti.gnss@3.0-service.xml
 ODM_MANIFEST_SKUS += \
     nfc
 
