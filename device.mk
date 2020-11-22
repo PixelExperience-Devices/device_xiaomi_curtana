@@ -41,7 +41,8 @@ PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += \
 QCOM_SOONG_NAMESPACE := $(LOCAL_PATH)
 
 PRODUCT_SOONG_NAMESPACES += \
-    hardware/google/pixel
+    hardware/google/pixel \
+    hardware/google/interfaces
 
 # Permissions
 PRODUCT_COPY_FILES += \
